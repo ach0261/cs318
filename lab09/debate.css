@@ -1,0 +1,52 @@
+.blurb{
+    box-sizing: border-box;
+    width: 90%;
+    box-shadow: 5px 5px 10px black;
+    border-style:solid;
+    border-width: 1px;
+    border-color: black;
+    min-height: 202px;
+    min-width: 400px;
+    background-size: 200px auto;
+    background-repeat: no-repeat;
+    padding-left:210px;
+    padding-right: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+
+.left{
+    background-color: beige;   
+    background-image:url("trump.jpg");      
+    border-top-right-radius: 50px;   
+    border-bottom-right-radius:50px;        
+}
+
+
+.right{
+    background-color: bisque;   
+    background-image:url("obama.jpg");
+    background-position: right;    
+    margin-left: auto; 
+    border-top-left-radius: 50px;   
+    border-bottom-left-radius:50px;
+}
+
+
+
+body{
+    margin: 0;
+}
+
+
+
+header{
+    background-image: linear-gradient(to bottom, beige,bisque);    
+    width: auto;
+    height: 100px;
+    background-repeat: no-repeat;    
+    box-shadow: inset 0 -5px 5px white;
+    text-align: center;
+    font-size: 50px;
+}
