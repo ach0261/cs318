@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    background-image: url("cork.jpg"); 
+    
+    
+}
+
+
+.label{
+    border-color: white;
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 8px;
+    
+}
+
+img{
+    width: 500px;
+    height: auto:
+    float:left;
+    margin: 0px;
+    padding: 0px;
+}
+
+Pushpin{
+    width:100px;
+    height:auto;
+    
+}
+
