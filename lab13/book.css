@@ -1,0 +1,72 @@
+header{
+    background-color: #FF5883;
+    height: 90px;
+    width: auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: "Arial";
+    padding-top: 30px;
+}
+
+nav {
+    background-color: #44D612;
+    float: left;
+    width: 11em;
+    height: 33em;
+    padding: 15px;
+    
+}
+nav ol{
+    list-style-type: none;
+    padding: 2px;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 14px;
+    padding-left: 1px;
+    padding-right: 1px;
+    color: white;
+    font-family: "Arial";
+    font-size: 13px;
+    width: 8em;                                                                                                                         
+}
+
+main {
+    background-color: #3CA8CC;
+    padding: 18px;
+    color: white;
+    overflow: auto;
+    font-family: "Times New Roman";
+    height: 33em;
+}
+
+.quote{
+    background-color: #FF9B5D;
+    font-size: 1.2em;
+    float: right;
+    width: 8em;
+    margin: 2em;
+    padding: 1em;
+    font-weight: 10;
+        
+}
+
+.poem{
+    white-space: pre-wrap;
+}
+
+@media (max-width: 19em) {
+            main {
+            position: static;
+            clear:both;
+            } 
+            nav{
+            display: inline;
+            }
+}
