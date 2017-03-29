@@ -1,0 +1,63 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.red{
+   background-color: red;
+}
+
+.orange{
+   background-color: orange;
+}
+
+.yellow{
+   background-color: yellow;
+}
+
+.green{
+   background-color: green;
+}
+
+.blue{
+   background-color: blue;
+}
+
+.square{
+    background-color: white; 
+}
+
+.square1{
+    background-color: black;
+    border-style: solid;
+    border-width: 8px;
+    border-color: white dimgray dimgray;
+    
+}
+
+.square2{
+    background-color: black;
+    border-style: solid;
+    border-width: 8px;
+    border-color: white dimgray;
+}
+
+.square3{
+    background-color: black;
+    border-style: solid;
+    border-width: 8px;
+    border-color: white white white dimgray;
+}
+
+.square4{
+    background-color: black;
+    border-style: solid;
+    border-width: 8px;
+    border-color: white;
+}
+
+
+ul {
+    
+    
+}

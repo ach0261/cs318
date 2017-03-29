@@ -1,0 +1,65 @@
+
+body{
+    background-image: linear-gradient(to bottom, white, orange);    
+    background-repeat: no-repeat;  
+
+}
+header{
+    background-color: dimgray;
+    color: white;
+    height: 20px;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.google{
+    float: right;
+}
+
+.logo{
+   padding-top: 10px;
+}
+
+p{
+    margin; 5px;
+}
+.rectangle1{
+    background-color: pink;
+   float: right;
+}
+
+.rectangle01{
+    border-style: solid;
+    border-color: black;
+    padding-top: 10px;
+    padding-right: 10px;
+   float: right;
+}
+
+.rectangle2{
+    background-color: pink;
+    float: left;
+    border-style: solid;
+    border-color: black;
+    margin: 15px;
+}
+
+.rectangle3{
+    background-color: pink;
+    float: left;
+}
+
+
+.rectangle03{
+    border-style: solid;
+    border-color: black;
+    padding-top: 10px;
+    padding-right: 10px;
+   float: right;
+}
+
+
+
