@@ -1,0 +1,53 @@
+form{
+    background-color: lightgray;
+    width: 500px;
+    height: 490px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    border-radius: 15px;
+}
+
+#Send{
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    float: right;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input:not(#Send){
+    float: right;
+    width: 300px;
+    height: 25px;
+}
+
+textarea{
+    float: right;
+    width: 490px;
+    
+}
+
+
+label[for=myName]
+{
+    padding-left: 120px;
+}
+
+label[for=myEmail]
+{
+    padding-left: 120px;
+}
+
+label[for=Subject]
+{
+    padding-left: 100px;
+}
+
+::-webkit-input-placeholder{
+font-family: Arial, sans-serif;
+font-size: 27px;
+}
+
+

@@ -1,0 +1,32 @@
+body { 
+    margin: 0;
+}
+
+div{
+    background-color: aquamarine;
+    position: relative;
+}
+
+.page{
+    width: 1900px;
+    height: 850px;
+    background-size:1900px 850px;
+    display: none;
+   
+}
+#page1{
+    background-image:url(1.jpg);
+    
+}
+
+#page2{
+    background-image:url(2.jpg); 
+}
+
+#page3{
+    background-image:url(3.jpg); 
+}
+
+input[type="radio"]:checked + .page {
+  display: block;
+}
