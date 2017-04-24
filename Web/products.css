@@ -2,7 +2,7 @@ h1{
     text-align: left;
     color: dimgray;
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    padding-left: 60px;
+    padding-left: 70px;
     font-size: 25px;
 }
 
@@ -28,9 +28,12 @@ nav{
 }
 
 main{
-    padding-left: 60px;
-    padding-top: 50px;
-    
+    display: block;
+    margin: 0;
+    width: 1600px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
 }
 
 img[alt*="facebook"]{
@@ -50,19 +53,16 @@ img[alt*="twitter"]{
     width: 400px;
     height: 300px;
     float: left;
+    margin:0;
     text-align: center;
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-.product:nth-child(1,2,4,5,7,8,10,11,13,14){
-    padding-right: 12px;
 }
 
 p{
-    margin-left: 550px;
     text-align: center;
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 16px;
+    margin-left: 750px;
     width: 70px;
     height: 40px;
     text-align: center;
@@ -71,6 +71,7 @@ p{
     box-sizing: border-box;
     border: 1px solid;
 }
+
 
 footer{
     background-color: black;
@@ -101,6 +102,11 @@ footer{
 
 
 .main{
-    height: 1800px;  
+    height: 1500px;  
 }
 
+
+body{
+width: 100%;
+margin: 0;
+}

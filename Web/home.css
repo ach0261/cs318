@@ -1,9 +1,8 @@
-
 h1{
     text-align: left;
     color: dimgray;
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    padding-left: 60px;
+    padding-left: 70px;
     font-size: 25px;
 }
 
@@ -29,7 +28,9 @@ nav{
 }
 
 iframe{
-    padding-left: 70px;
+    padding-left: 100px;
+    width: 1700px;
+    height: 800px;
     
 }
 
@@ -69,4 +70,12 @@ footer{
     color: white;
     width: 100%;
     margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
 }
+
+body{
+width: 100%;
+margin: 0;
+}
+

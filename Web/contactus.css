@@ -2,7 +2,7 @@ h1{
     text-align: left;
     color: dimgray;
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    padding-left: 60px;
+    padding-left: 70px;
     font-size: 25px;
 }
 
@@ -91,6 +91,7 @@ input[type="submit"]{
    display: inline-block;
     text-align: left;
     padding-bottom: 0px;
+    margin-left: 400px;
 }
 
 hr{
@@ -134,4 +135,9 @@ footer{
     color: white;
     width: 100%;
     margin-top: 100px;
+}
+
+body{
+width: 100%;
+margin: 0;
 }
