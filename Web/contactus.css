@@ -1,0 +1,137 @@
+h1{
+    text-align: left;
+    color: dimgray;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-left: 60px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    text-align: right;
+    letter-spacing: 0.5px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav{
+    padding: 15px;
+    color: black;
+}
+
+.nav:last-child {
+    padding-right: 70px;
+}
+
+main{
+    display: block;
+    text-align: center;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form{
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    opacity: 0.9;
+    color: black;
+    margin-left: 60px;
+    width: 1150px;
+
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 17px;
+    opacity: 0.9;
+    padding-top: 5px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+label{
+    float: left;
+    clear: left;
+    display: block;
+    width: 100px;
+    text-align: right;
+    padding-left: 60px;
+    padding-right: 50px;
+    font-size: 15px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+input{
+    display: block;
+    height: 17px;
+    margin-bottom: 15px;
+}
+
+textarea{
+    display: block;
+   margin-left: 210px;
+}
+
+input[type="submit"]{
+    margin-left: 210px;
+    width: 80px;
+    height: 29px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 16px;
+    background-color: white;
+     box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+.form{
+   display: inline-block;
+    text-align: left;
+    padding-bottom: 0px;
+}
+
+hr{
+    width: 700px;
+}
+
+.footer{
+    text-align: center;
+    padding: 6px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+}
+
+.footer:last-child {
+    padding-bottom: 50px;
+}
+
+
+.sns{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+   
+}
+
+img[alt*="facebook"]{
+    padding-right: 8px;
+}
+
+img[alt*="instagram"]{
+    padding-right: 8px;
+}
+
+img[alt*="twitter"]{
+    padding-right: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 100px;
+}

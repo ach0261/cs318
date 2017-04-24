@@ -1,0 +1,106 @@
+h1{
+    text-align: left;
+    color: dimgray;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-left: 60px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    text-align: right;
+    letter-spacing: 0.5px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav{
+    padding: 15px;
+    color: black;
+}
+
+.nav:last-child {
+    padding-right: 70px;
+}
+
+main{
+    padding-left: 60px;
+    padding-top: 50px;
+    
+}
+
+img[alt*="facebook"]{
+    padding-right: 8px;
+}
+
+img[alt*="instagram"]{
+    padding-right: 8px;
+}
+
+img[alt*="twitter"]{
+    padding-right: 5px;
+}
+
+.product{
+    padding-bottom: 50px;
+    width: 400px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.product:nth-child(1,2,4,5,7,8,10,11,13,14){
+    padding-right: 12px;
+}
+
+p{
+    margin-left: 550px;
+    text-align: center;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 16px;
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    padding-top: 7px;
+    opacity: 0.9;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+.footer{
+    text-align: center;
+    padding: 6px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+}
+
+.footer:last-child {
+    padding-bottom: 50px;
+}
+
+
+.sns{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+
+.main{
+    height: 1800px;  
+}
+
