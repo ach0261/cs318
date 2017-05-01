@@ -1,0 +1,23 @@
+.body{
+    display: block;
+    width: 1800px;
+    height: 600px;
+}
+
+.photo{
+    float: left;
+    padding-left: 200px;
+    height: 0px;
+    padding-top: 20px;
+}
+
+.content{
+    width: 700px;
+    height: 600px;
+    float: left;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 23px;
+    padding-right: 10px;
+    padding-left: 200px;
+    line-height: 45px;
+}
