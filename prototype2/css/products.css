@@ -3,11 +3,16 @@ main{
     display: block;
     margin: 0;
     width: 1600px;
-    padding-left: 150px;
+    padding-left: 100px;
     padding-right: 150px;
     text-align: center;
+    color: black;
+    text-decoration: none;
 }
 
+a:link{
+    color: black;
+}
 
 .product{
     padding-bottom: 50px;

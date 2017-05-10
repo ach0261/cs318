@@ -1,11 +1,9 @@
-
-
 h1{
     text-align: left;
     color: dimgray;
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    padding-left: 70px;
-    font-size: 25px;
+    padding-left: 100px;
+    font-size: 30px;
 }
 
 a{
@@ -17,7 +15,7 @@ nav{
     letter-spacing: 0.5px;
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .nav{
@@ -26,7 +24,7 @@ nav{
 }
 
 .nav:last-child {
-    padding-right: 70px;
+    padding-right: 180px;
 }
 
 .footer{
@@ -73,3 +71,27 @@ body{
 width: 100%;
 margin: 0;
 }
+
+
+@media screen and (min-width: 480px) {
+    h1{
+    padding-left: 100px;
+    font-size: 60px;
+    }
+    
+    nav{
+        float: none;
+        width: auto;
+    }
+    
+    footer{
+        font-size: 30px;
+    }
+    
+}
+
+1
+
+
+
+
