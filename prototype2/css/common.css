@@ -1,8 +1,14 @@
+*{
+    margin: 0;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 h1{
     text-align: left;
     color: dimgray;
-    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    padding-left: 100px;
+    padding-left: 60px;
+    padding-top: 10PX;
+
     font-size: 30px;
 }
 
@@ -12,25 +18,25 @@ a{
 
 nav{
     text-align: right;
-    letter-spacing: 0.5px;
-    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    letter-spacing: 1.5px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .nav{
-    padding: 15px;
+    padding: 20px;
     color: black;
 }
 
 .nav:last-child {
-    padding-right: 180px;
+    padding-right: 50px;
 }
 
 .footer{
+    width: 100%;
+    margin: auto;
     text-align: center;
     padding: 6px;
-    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 12px;
 }
 
