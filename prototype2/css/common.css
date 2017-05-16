@@ -83,11 +83,10 @@ body{
 @media (max-width: 480px) {
     
     h1{
-        font-size: 20px;
         padding-left: 20px;
     }
+    
     nav{
-        font-size: 10px;
         width: 300px;
     }
     
@@ -95,10 +94,7 @@ body{
         padding: 10px;
     }
     
-    .footer{
-        font-size: 9px;
-    }
-
+    
 
     
     
