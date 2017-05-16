@@ -8,7 +8,6 @@ h1{
     color: dimgray;
     padding-left: 60px;
     padding-top: 10PX;
-
     font-size: 30px;
 }
 
@@ -53,15 +52,15 @@ nav{
 }
 
 img[alt*="facebook"]{
-    padding-right: 8px;
+    padding-right: 9px;
 }
 
 img[alt*="instagram"]{
-    padding-right: 8px;
+    padding-right: 9px;
 }
 
 img[alt*="twitter"]{
-    padding-right: 5px;
+    padding-right: 9px;
 }
 
 footer{
@@ -74,8 +73,8 @@ footer{
 }
 
 body{
-width: 100%;
-margin: 0;
+    width: 100%;
+    margin: 0;
 }
 
 
