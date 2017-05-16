@@ -110,7 +110,8 @@ input[type=submit]:hover {
 @media (max-width: 480px) {
     
     nav{
-        width: 420px;
+        width: 350px;
+        padding-left: 70px;
     }
 
 h1{
@@ -129,29 +130,29 @@ hr{
 }
     
 .text{
-    font-size: 14px;
+    font-size: 12px;
     opacity: 0.9;
-    padding-top: 5px;
-    padding-left: 0px;
-    line-height: 30px;
-    width: 400px;
+    padding-top: 0;
+    padding-left: 5px;
+    line-height: 25px;
+    width: 300px;
     
 }
 label{
     float: left;
     clear: left;
     display: block;
-    width: 50px;
+    width: 65px;
     text-align: right;
     padding-left: 0px;
-    padding-right: 30px;
-    font-size: 15px;
+    padding-right: 20px;
+    font-size: 13px;
 
 }
       
 input[type="submit"]{
-    margin-left: 80px;
-    width:100px;
+    margin-left: 85px;
+    width:80px;
     height: 30px;
     font-size: 15px;
     cursor: pointer;
@@ -169,14 +170,14 @@ input[type="submit"]{
     
 .address{
     margin-left: 40px;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
   
 }
 
 .social{
     margin-left: 40px;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px; 
     
 }    
