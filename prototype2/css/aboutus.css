@@ -19,5 +19,24 @@
     margin-right: 100px;
     font-size: 20px;
     line-height: 50px;
-    
 }
+
+@media (max-width: 480px) {
+    #photo{
+        height: 400px;
+        width: 320px;
+        padding-left: 0px;
+    }
+    
+    
+    .about{
+        font-size: 18px;
+        margin-left: 0px;
+        padding-top: 420px;
+        padding-left: 20px;
+        width: 300px;
+        line-height: 27px;
+        
+    }
+}
+    
