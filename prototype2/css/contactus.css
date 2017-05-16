@@ -15,7 +15,7 @@ body{
 
 hr{
     margin-left: 600px;
-    
+     width: 700px;
 }
 
 .text{
@@ -36,7 +36,6 @@ label{
     padding-left: 260px;
     padding-right: 50px;
     font-size: 15px;
-
 }
 
 input{
@@ -51,8 +50,8 @@ input{
 
 textarea{
     display: block;
-   margin-left: 210px;
-    border-radius: 3px;
+   margin-left: 70px;
+    width: 300px;
 }
 
 input[type="submit"]{
@@ -85,10 +84,6 @@ input[type=submit]:hover {
 }
 
 
-hr{
-    width: 700px;
-}
-
 .address{
     margin-left: 600px;
     font-size: 15px;
@@ -112,4 +107,72 @@ hr{
 }
 
 
+@media (max-width: 480px) {
+    h1{
+        padding-bottom: 0px;
+    }
+    
+    .title{
+    font-size: 15px;
+    margin-left: 40px;
+    padding-bottom: 2px;
+}
 
+hr{
+    margin-left: 40px;
+    width: 400px;
+}
+    
+.text{
+    font-size: 13px;
+    opacity: 0.9;
+    padding-top: 5px;
+    padding-left: 0px;
+    line-height: 30px;
+    width: 400px;
+    
+}
+label{
+    float: left;
+    clear: left;
+    display: block;
+    width: 50px;
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 20px;
+    font-size: 12px;
+
+}
+      
+input[type="submit"]{
+    margin-left: 0px;
+    width:100px;
+    height: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+
+
+.form{
+    display: block;
+    text-align: left;
+    padding-bottom: 0px;
+    margin-left: 40px;
+    opacity: 0.9;
+    color: black;
+    width: 400px;
+
+}
+    
+    
+    
+    
+    
+    
+    
+}

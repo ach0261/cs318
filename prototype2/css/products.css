@@ -31,3 +31,28 @@ ul{
 }
 
 
+@media (max-width: 480px) {
+    h1{
+        padding-bottom: 0px;
+    }
+    nav{
+       width: 420px; 
+    }
+    
+   .nav:last-child {
+    padding-right: 0px;
+}
+    
+    #main{
+        columns: 1;
+        width: 50%;
+        line-height:20px;
+        
+    }
+    
+    .product{
+        width: 200px;
+        height: auto;
+        padding-bottom: 100px;
+    }
+}
