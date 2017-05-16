@@ -51,11 +51,11 @@ input{
 textarea{
     display: block;
    margin-left: 70px;
-    width: 300px;
+    width: 400px;
 }
 
 input[type="submit"]{
-    margin-left: 700px;
+    margin-left: 400px;
     width:200px;
     height: 35px;
     font-size: 16px;
@@ -149,6 +149,12 @@ label{
 
 }
       
+    textarea{
+    display: block;
+   margin-left: 70px;
+    width: 300px;
+}
+    
 input[type="submit"]{
     margin-left: 80px;
     width:100px;
