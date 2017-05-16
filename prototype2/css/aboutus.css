@@ -5,10 +5,10 @@
 
 #photo{
     height: 600px;
-    width: 500px;
+    width: auto;
     display: block;   
     margin-top: 20px;
-    padding-left: 200px;
+    margin-left: 200px;
     position: absolute;
 }
 
@@ -23,20 +23,16 @@
 
 @media (max-width: 480px) {
     #photo{
-        height: 400px;
-        width: 320px;
-        padding-left: 0px;
-    }
-    
+        width: 230px;
+        height: auto;
+        margin-left: 0px;
+    } 
     
     .about{
-        font-size: 18px;
-        margin-left: 0px;
-        padding-top: 420px;
-        padding-left: 20px;
-        width: 300px;
-        line-height: 27px;
-        
+        margin: 0px;
+        padding-top: 350px;
+        margin: 0px;
+        font-size: 15px;
+        line-height: 30px;
     }
 }
-    
