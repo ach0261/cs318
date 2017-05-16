@@ -4,6 +4,17 @@
    
 }
 
+iframe{
+    width: 100%;
+    height: 800px;
+
+}
+
+body{
+width: 100%;
+margin: 0;
+}
+
 h1{
     text-align: left;
     color: dimgray;
