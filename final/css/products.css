@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+
+a:link{
+    color: black;
+}
+
+.product{
+    padding-bottom: 50px;
+    width: 400px;
+    height: 300px;
+    margin:0;
+    text-align: center;
+
+}
+
+
+#main{
+    columns: 3;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+    line-height: 10px;
+
+}
+
+ul{
+   list-style-type: none;
+}
+
+
+@media (max-width: 480px) {
+    h1{
+        padding-bottom: 0px;
+    }
+    nav{
+       width: 420px; 
+    }
+    
+   .nav:last-child {
+    padding-right: 0px;
+}
+    
+    #main{
+        columns: 1;
+        width: 50%;
+        line-height:20px;
+        
+    }
+    
+    .product{
+        width: 200px;
+        height: auto;
+        padding-bottom: 100px;
+    }
+}

@@ -1,0 +1,60 @@
+.body{
+    width: 100%;
+    height: 600px;
+}
+
+#photo{
+    height: 580px;
+    width: auto;
+    display: block;   
+    margin-top: 20px;
+    margin-left: 200px;
+    position: absolute;
+}
+
+
+.about{
+    padding-top: 70px;
+    margin-left: 800px;
+    margin-right: 150px;
+    font-size: 20px;
+    line-height: 49px;
+}
+
+@media (max-width: 480px) {
+    
+     nav{
+        width: 432px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    
+    .nav{
+    padding: 5px;
+    }
+    
+     .nav:last-child {
+    padding-right: 0px;
+}
+    
+    body{
+        height: auto;
+        
+    }
+    
+    #photo{
+        width: 420px;
+        height: auto;
+        margin-left: 20px;
+    } 
+    
+    .about{
+        margin: 0px;
+        padding-top: 600px;
+        margin: 20px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
